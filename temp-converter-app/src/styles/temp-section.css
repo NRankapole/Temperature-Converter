@@ -1,7 +1,15 @@
 div{
     background-color: rgb(232, 232, 232);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 h1{
     text-align: center;
+}
+
+label{
+    justify-self: flex-start;
 }
