@@ -1,7 +1,7 @@
-export type Metric = "celcius" | "fahrenheit";
+export type Metric = "celsius" | "fahrenheit";
 
 export type TempInputProps = {
   label: string;
   value: string;
-  onTempeChange: (value: string) => void;
+  onTempChange: (value: string) => void;
 };
