@@ -1,9 +1,11 @@
-import TempInput from './components/temp-input'
+import TempSection from './components/temp-section'
 import './index.css'
 
 function App() {
   return (
-    <TempInput/>
+    <>
+      <TempSection />
+    </>
   )
 }
 
