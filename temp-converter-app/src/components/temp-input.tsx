@@ -1,12 +1,13 @@
 import "../styles/temp-input.css"
 
 function TempInput() {
+
     return (
         <div id="inputSection">
 
             <div className="UnitInput">
                 <label>Temp in Celsius:</label>
-                <input />
+                <input/>
             </div>
 
             <div className="UnitInput">
