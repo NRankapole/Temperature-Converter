@@ -11,3 +11,12 @@ export type Employee = {
   name: string;
   role: string;
 };
+
+export type SearchInputProps = {
+  value: string;
+  onSearchChange: (value: string) => void;
+};
+
+export type EmployeeListProps = {
+  employees: Employee[];
+};
