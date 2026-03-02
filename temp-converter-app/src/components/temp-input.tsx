@@ -7,7 +7,7 @@ function TempInput({ label, value, onTempChange, }:TempInputProps) {
     onTempChange(event.target.value);
   }
     return (
-            <div className="UnitInput">
+            <div className="unitInput">
                 <label>Temprature in {label}:</label>
                 <input
                     type="number"

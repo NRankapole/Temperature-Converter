@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-.UnitInput{
+.searchInput{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
 }
