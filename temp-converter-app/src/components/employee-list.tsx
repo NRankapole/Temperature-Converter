@@ -1,5 +1,4 @@
 import type { EmployeeListProps } from "../utils/types";
-import '../styles/employee-list.css'
 function EmployeeList({ employees }: EmployeeListProps) {
     if (employees.length === 0) {
         return <p>Employee not found</p>
