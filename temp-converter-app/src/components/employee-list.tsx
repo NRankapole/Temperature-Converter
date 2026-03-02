@@ -1,23 +1,23 @@
 import type { EmployeeListProps } from "../utils/types";
-
+import '../styles/employee-list.css'
 function EmployeeList({ employees }: EmployeeListProps) {
     if (employees.length === 0) {
         return <p>Employee not found</p>
     }
-    
+
     return (
-            <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100">
-                <table className="table-xs">
+            <div className="overflow-x-auto">
+                <table className="table-sm">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th>ID</th>
                             <th>Name</th>
                             <th>Title</th>
                         </tr>
                     </thead>
                     <tbody>
                         {employees.map((employee) => (
-                           <tr>
+                           <tr key={employee.id}>
                                 <th>{employee.id}</th>
                                 <td>{employee.name}</td>
                                 <td>{employee.role}</td>
