@@ -33,3 +33,11 @@ It includes two main features:
 
 ---
 ### Screenshots
+- Mobile view of full website 
+- ![full website](src/screenshots/Mobile%20view%20of%20app.png)
+---
+- Temperature conversion functionality 
+- ![Temperature conversion demo](src/screenshots/Temperature%20converter%20functionality.png)
+---
+- Employee search functionality 
+- ![Employee search demo](src/screenshots/Search%20functionality.png)
