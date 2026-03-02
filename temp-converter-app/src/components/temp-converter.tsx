@@ -29,14 +29,14 @@ function TempConverter() {
             : parseFloat(temperature).toString();
 
     return (
-        <div>
+        <div className="card-Info">
             <h1>Temperature Converter</h1>
             <TempInput
                 label="Celsius"
                 value={celsiusTemp}
                 onTempChange={handleCelsiusChange}
             />
-             <TempInput
+            <TempInput
                 label="Fahrenheit"
                 value={fahrenheitTemp}
                 onTempChange={handleFahrenheitChange}

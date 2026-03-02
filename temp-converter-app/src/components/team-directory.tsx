@@ -2,6 +2,7 @@ import { useState } from "react";
 import { employees } from "../data/employee-list";
 import SearchInput from "./search-input";
 import EmployeeList from "./employee-list";
+import '../styles/team-directory.css'
 
 function TeamDirectory() {
     const [search, setSearch] = useState("");
@@ -11,7 +12,7 @@ function TeamDirectory() {
     );
 
     return (
-        <>
+        <div className="card-Info">
             <h2>Team Directory</h2>
 
             <SearchInput
@@ -20,7 +21,7 @@ function TeamDirectory() {
             />
 
             <EmployeeList employees={filteredEmployees}/>
-        </>
+        </div>
     )
 }
 

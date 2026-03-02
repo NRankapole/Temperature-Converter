@@ -13,6 +13,7 @@ function TempInput({ label, value, onTempChange, }:TempInputProps) {
                     type="number"
                     value={value}
                     onChange={handleChange}
+                    placeholder="0"
                 />
             </div>
     )

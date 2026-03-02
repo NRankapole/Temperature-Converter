@@ -5,10 +5,17 @@ import './index.css'
 
 function App() {
   return (
-    <>
-      <TempConverter/>
-      <TeamDirectory/>
-    </>
+    <div id='app'>
+
+      <div className='card'>
+        <TempConverter />
+      </div>
+
+      <div className='card'>
+        <TeamDirectory />
+      </div>
+
+    </div>
   )
 }
 
