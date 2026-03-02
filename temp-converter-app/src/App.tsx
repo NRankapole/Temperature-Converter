@@ -1,10 +1,11 @@
-import TempSection from './components/temp-section'
+import TempConverter from './components/temp-converter'
+
 import './index.css'
 
 function App() {
   return (
     <>
-      <TempSection />
+      <TempConverter/>
     </>
   )
 }

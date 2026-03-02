@@ -4,7 +4,7 @@ import type { Metric } from "../utils/types";
 import { convertToCelsius, convertToFahrenheit } from "../utils/conversion-function";
 import TempInput from "./temp-input";
 
-function TempSection() {
+function TempConverter() {
     const [temperature, setTemperature] = useState("");
     const [metric, setMetric] = useState<Metric>("celsius");
 
@@ -47,4 +47,4 @@ function TempSection() {
 
 
 
-export default TempSection;
+export default TempConverter;
