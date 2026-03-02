@@ -1,4 +1,5 @@
 import type { SearchInputProps } from "../utils/types";
+import '../styles/search-input.css'
 
 function SearchInput({ value, onSearchChange }: SearchInputProps) {
     
@@ -7,7 +8,7 @@ function SearchInput({ value, onSearchChange }: SearchInputProps) {
     }
 
     return (
-        <div>
+        <div className="UnitInput">
             <label>
                 Search employees:
                 <input

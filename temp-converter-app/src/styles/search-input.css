@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.UnitInput{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
