@@ -1,0 +1,9 @@
+.unitInput{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+       input{
+        width: 90px;
+    }
+}
